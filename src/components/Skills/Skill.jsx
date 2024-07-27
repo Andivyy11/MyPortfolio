@@ -5,11 +5,11 @@ export default function Skill()
     const skillSet = [
         {
             name : "Front-End",
-            set : [ "HTML" , "CSS" , "React" , "Redux" , "Styled-Components" , "SCSS" , "Bootstrap"]
+            set : [ "HTML" , "CSS" , "React" , "Redux" , "Styled-Components" , "SCSSs" , "Bootstrap"]
         },
         {
             name: "Back-End",
-            set: ["JavaScript" , "NodeJs" , "PostMan API" , "API Development" , "MongoDB" , "Oracle", ,"Firebase","Socket.io"]
+            set: ["JavaScript" , "NodeJs" , "PostMan API" , "API Development" , "MongoDB" , "Oracle" ,"Firebase","Socket.io"]
         },
         {
             name: "Programming",

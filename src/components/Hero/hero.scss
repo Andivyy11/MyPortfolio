@@ -3,6 +3,7 @@
     height: calc(100vh - 100px);
     display:flex;
     gap:50px;
+    padding:20px;
 
     img{
         width:500px;
@@ -39,8 +40,14 @@
     .floatingText{
         position:absolute;
         bottom:0;
-        font-size:7rem;
+        font-size:6rem;
         font-weight: 600;
         color:rgb(180 119 237 / 8%);
+    }
+}
+@media ( max-width : 960px)
+{
+    .hero img{
+        display: none;
     }
 }
