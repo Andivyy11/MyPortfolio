@@ -40,7 +40,7 @@ export default function Projects()
         },
         { 
            name:"Pixel Playground",
-           desc:"A collection of fun 2D games",
+           desc:"A beautiful React website featuring a captivating collection of various 2D games. Designed with creativity and user engagement in mind, this platform offers a delightful gaming experience for users of all ages.",
            img:"./images/pixel.png",
            stack : [
             {
