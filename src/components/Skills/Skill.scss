@@ -1,0 +1,33 @@
+.containerS{
+   width:100vw;
+   height:100vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.skillBox{
+  width:80%;
+  height:70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .mySkills{
+    display: flex;
+    flex-direction:column;
+  }
+  .skillSet{
+      h1{
+        color:rgb(254, 113, 254);
+        font-size: 2.5rem;
+        margin:18px 0;
+      }
+      div span{
+        font-size:1.2rem;
+        margin-right:16px;
+      }
+  }
+  img{
+    width:350px;
+  }
+}

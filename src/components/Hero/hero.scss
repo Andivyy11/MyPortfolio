@@ -1,0 +1,46 @@
+.hero{
+    background: linear-gradient(rgb(47, 47, 47) , rgb(38, 14, 58));
+    height: calc(100vh - 100px);
+    display:flex;
+    gap:50px;
+
+    img{
+        width:500px;
+        align-self: flex-end;
+        z-index: 1;
+    }
+    .bio{
+        margin:auto;
+    }
+    h2{
+        font-size: 3.0rem;
+        color:burlywood;
+    }
+    h1{
+        font-size: 4.5rem;
+        color:grey;
+    }
+    h1,h2{
+        margin-bottom:20px;
+    }
+    a{
+        padding:12px 15px;
+        border-radius: 15px;
+        background-color: transparent;
+        font-size: 16px;
+        border: 2px solid rgb(139 139 139);
+        margin-right:20px;
+        color:white;
+    }
+    a:hover {
+        background-color: white;
+        color:black;
+    }
+    .floatingText{
+        position:absolute;
+        bottom:0;
+        font-size:7rem;
+        font-weight: 600;
+        color:rgb(180 119 237 / 8%);
+    }
+}

@@ -1,0 +1,35 @@
+.parallax{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    position:relative;
+    overflow: hidden;
+
+    h1{
+      font-size: 60px;
+    }
+    div{
+        width:100vw;
+        height:100vh;
+        background-size: cover;
+        position: absolute;
+    }
+    .mountains{
+        background-image: url('../../../public/images/mountains.png');
+        background-position: bottom;
+    }
+    .stars{
+        background-image: url("../../../public/images/stars.png");
+    }
+    .sun{
+        background-image: url('../../../public/images/sun.png');
+        background-position-y: -100px;
+    }
+    .planets{
+        background-image: url('../../../public/images/planets.png');
+        background-position-y: -100px;
+    }
+}
